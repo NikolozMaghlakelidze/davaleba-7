@@ -1,0 +1,238 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+.main_header{
+    display: inline-flex;
+height: 130px;
+justify-content: center;
+background-color: #262626;
+max-width: inherit; 
+width: inherit;
+width: 1920px;
+position: fixed;
+margin: auto;
+left: 50%;
+transform: translateX(-50%);
+}
+.header_nav{
+    display: inline-block;
+}
+.header_li1{
+    color: #DCB47A;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-block;
+    margin:46px 0 45px 120px;
+    padding-right: 68px;
+}
+.header_li2{
+display: inline-block;
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-right: 68px;
+}
+.header_li3{
+display: inline-block;
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-right: 68px;
+}
+.header_li4{
+display: inline-block;
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.fa-bag-shopping{
+    display: inline-block;
+    color: #FFF;
+    width: 32px;
+height: 36.571px;
+padding-top: 45px;
+padding-left: 720px;
+}
+ 
+/* section start  */
+.section{
+    z-index: -1;
+position: relative;
+max-width: 1920px;
+width: 100%;
+
+}
+.section_img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    font-family: Work Sans;
+}
+.section_h{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 82px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 1128px;
+height: 162px;
+position: absolute;
+text-align: center;
+top: 50% ;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 30px;
+border: 1px solid #FFF;
+background: rgba(255, 255, 255, 0.20);
+box-shadow: 0px 20px 4px 0px rgba(0, 0, 0, 0.54);
+backdrop-filter: blur(10px);
+display: flex;
+width: 1368px;
+height: 273px;
+padding: 56px 120px 55px 120px;
+justify-content: center;
+align-items: center;
+}
+/* section2 start  */
+.section2{
+    margin: 120px 320px ;
+    width: 1280px;
+height: 530px;
+}
+.section2_h{
+    color: #E08C11;
+    font-family: Work Sans;
+font-size: 75px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 81px;
+}
+.cards{
+    display: inline-block;
+    border-radius: 40px;
+    border: 3px solid #DCB47A;
+    width: 390px;
+    height: 361px;
+}
+.section_img{
+    padding: 30px 41px 20px 41px;
+    width: 308px;
+height: 225px;
+}
+.section_text{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+padding: 20px 243px 24px 41px;
+}
+.section2_text{
+    color: #E08C11;
+    font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+padding: 0 229px 30px 41px;
+display: inline-block;
+}
+.fa-cart-shopping{
+    display: inline-block;
+    border-radius: 4px;
+background: #DCB47A;
+width: 32px;
+height: 32px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+}
+footer{
+    width: 1920px;
+    height: 377px;
+    background-color: #262626;
+}
+.footer_h{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px; 
+width: 1920px;
+height: 70px;
+padding: 60px 629px 49px 630px;
+text-align: center;
+
+}
+.footer_span{
+    color: #DCB47A;
+    font-family: Work Sans;
+font-size: 60px; 
+font-style: normal;
+font-weight: 600;
+ line-height: 70px; 
+}
+.footer_text{
+    color: rgba(255, 255, 255, 0.80);
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+padding-top: 49px;
+}
+.footer_div{
+    width: 200px;
+height: 64px;
+border-radius: 60px;
+background: #DCB47A;
+margin: auto;
+}
+.footer_button{
+    color: #FFF;
+margin: 21px 61px 23px 60px;
+padding: 4px;
+background-color: #DCB47A;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%
+}
+.footer_div:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #DCB47A,
+    0 0 20px #DCB47A;
+}
+
+
+
+
+
+
+
+
+
+
